@@ -1,0 +1,13 @@
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+
+menuentry "debian-live-10.13.0-i386-lxde.iso" {
+  insmod ext2
+  set isofile="/boot/customiso/debian-live-10.13.0-i386-lxde.iso"
+  loopback loop (hd0,msdos1)$isofile
+  linux (loop)/live/vmlinuz-4.19.0-21-686 boot=live findiso=$isofile
+  initrd (loop)/live/initrd.img-4.19.0-21-686
+}
