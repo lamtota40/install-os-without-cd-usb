@@ -13,6 +13,8 @@ losetup -d /dev/loop0
 umount /isodevice
 exit
 
+https://bugs.launchpad.net/subiquity/+bug/1910531
+
 
 
 
