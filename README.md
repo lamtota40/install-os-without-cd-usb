@@ -3,12 +3,12 @@ install operating system without cd or usb
 
 
 # Ubuntu
--ubuntu desktop
+- Ubuntu desktop
 
--ubuntu server
-https://bugs.launchpad.net/subiquity/+bug/1910531
+- Ubuntu server
+https://bugs.launchpad.net/subiquity/+bug/1910531 <br>
 On the very first "Please choose you preferred language" screen
-choose menu Help (you can use arrow up)
+choose menu Help (you can use arrow up)<br>
 ![ubuntuserver4](https://user-images.githubusercontent.com/26719371/217416357-c19abcfe-c561-4ae8-b42b-09c932c8e1ee.jpg)
 
 and enter comand:
