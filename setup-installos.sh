@@ -2,11 +2,14 @@
 
 #list Download ISO
 #linux i386(32bit)
+http://cdimage.debian.org/mirror/cdimage/archive/latest-oldstable-live/i386/iso-hybrid/debian-live-10.13.0-i386-standard.iso
 iso-li1=http://cdimage.debian.org/mirror/cdimage/archive/latest-oldstable-live/i386/iso-hybrid/debian-live-10.13.0-i386-lxde.iso
+https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.6.0-i386-standard.iso
 iso-li2=http://cdimage.debian.org/mirror/cdimage/archive/11.5.0-live/i386/iso-hybrid/debian-live-11.5.0-i386-lxde.iso
 
 #linux Amd64(64bit)
 iso-la1=http://cdimage.debian.org/mirror/cdimage/archive/latest-oldstable-live/amd64/iso-hybrid/debian-live-10.13.0-amd64-lxde.iso
+https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.6.0-amd64-standard.iso
 iso-la2=http://cdimage.debian.org/mirror/cdimage/archive/11.5.0-live/amd64/iso-hybrid/debian-live-11.5.0-amd64-lxde.iso
 iso-la3=https://releases.ubuntu.com/18.04.6/ubuntu-18.04.6-desktop-amd64.iso
 iso-la4=https://releases.ubuntu.com/18.04.6/ubuntu-18.04.6-live-server-amd64.iso
