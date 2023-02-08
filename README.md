@@ -4,6 +4,10 @@ install operating system without cd or usb
 
 # Ubuntu
 - Ubuntu desktop
+  https://help.ubuntu.com/community/Grub2/ISOBoot
+```console
+sudo umount -l -r -f /isodevice
+```
 
 - Ubuntu server
 https://bugs.launchpad.net/subiquity/+bug/1910531 <br>
