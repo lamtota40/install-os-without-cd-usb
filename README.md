@@ -12,9 +12,11 @@ choose menu Help (you can use arrow up)<br>
 ![ubuntuserver4](https://user-images.githubusercontent.com/26719371/217416357-c19abcfe-c561-4ae8-b42b-09c932c8e1ee.jpg)
 
 and enter comand:
-'''losetup -d /dev/loop0'''
-'''umount /isodevice'''
-'''exit'''
+```console
+losetup -d /dev/loop0
+umount /isodevice
+exit
+```
 
 ![ubuntuserver3](https://user-images.githubusercontent.com/26719371/217416304-97c565b2-31e2-4a03-9fca-243f85824fab.jpg)
 
