@@ -22,5 +22,6 @@ grep -e "menuentry " -e "submenu" /boot/grub/grub.cfg | sed 's/^[ \t]*//' | cut 
 
 
 
-![ubuntuserver3](https://user-images.githubusercontent.com/26719371/217416304-97c565b2-31e2-4a03-9fca-243f85824fab.jpg)
+
 ![ubuntuserver4](https://user-images.githubusercontent.com/26719371/217416357-c19abcfe-c561-4ae8-b42b-09c932c8e1ee.jpg)
+![ubuntuserver3](https://user-images.githubusercontent.com/26719371/217416304-97c565b2-31e2-4a03-9fca-243f85824fab.jpg)
