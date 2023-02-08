@@ -2,18 +2,22 @@
 install operating system without cd or usb
 
 
-# Ububntu
--desktop
+# Ubuntu
+-ubuntu desktop
 
--server
+-ubuntu server
+https://bugs.launchpad.net/subiquity/+bug/1910531
 On the very first "Please choose you preferred language" screen
-choose menu Help (
+choose menu Help (you can use arrow up)
+![ubuntuserver4](https://user-images.githubusercontent.com/26719371/217416357-c19abcfe-c561-4ae8-b42b-09c932c8e1ee.jpg)
 
+and enter comand:
 losetup -d /dev/loop0
 umount /isodevice
 exit
 
-https://bugs.launchpad.net/subiquity/+bug/1910531
+![ubuntuserver3](https://user-images.githubusercontent.com/26719371/217416304-97c565b2-31e2-4a03-9fca-243f85824fab.jpg)
+
 
 
 
@@ -23,5 +27,4 @@ grep -e "menuentry " -e "submenu" /boot/grub/grub.cfg | sed 's/^[ \t]*//' | cut 
 
 
 
-![ubuntuserver4](https://user-images.githubusercontent.com/26719371/217416357-c19abcfe-c561-4ae8-b42b-09c932c8e1ee.jpg)
-![ubuntuserver3](https://user-images.githubusercontent.com/26719371/217416304-97c565b2-31e2-4a03-9fca-243f85824fab.jpg)
+
