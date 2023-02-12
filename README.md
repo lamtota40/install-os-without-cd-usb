@@ -4,7 +4,7 @@ install operating system without cd or usb
 
 # Ubuntu
 - Ubuntu desktop
-  https://help.ubuntu.com/community/Grub2/ISOBoot
+  https://help.ubuntu.com/community/Grub2/ISOBoot#Installing_Ubuntu_from_a_Menuentry_Boot
 ```console
 sudo umount -l -r -f /isodevice
 ```
